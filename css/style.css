@@ -1,0 +1,65 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    background: #99CCFF !important;
+    
+}
+
+div[data-role="page"] {
+    background: #99CCFF !important;
+}
+
+.ui-content {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#wrapper {
+    max-width: 80vw;
+    max-height: 80vh;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+}
+
+.hp {
+    font-size: 20vmax;
+    padding: 5vmax;
+}
+
+
+* {
+    text-align: center;
+}
+
+.addSub {
+    font-size: 3vmax;
+    width: 100%;
+    padding: 3vmax;
+}
+
+#reset {
+    padding: 2vmax;
+}
+
+#myBox > *,
+#oppBox > * {
+}
+
+.ui-content > .ui-btn {
+    flex: none;
+}
+
+.ui-btn {
+    margin: 1vmin;
+}

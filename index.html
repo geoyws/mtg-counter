@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>geoyws' Magic: The Gathering Counter</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.3.min.js"></script>
+    <script src="js/app.js"></script>
+    <link href="css/jquery.mobile-1.4.3.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="main">
+        <div class="ui-content" role="main">
+            <div id="wrapper">
+                <div id="myBox" class="box">
+                    <input class="addSub" type="button" value="+" onclick="mtgCounter.alterHP(event, 1)" />
+                    <h1>Me</h1>
+                    <div class="hp" id="myHP">My HP</div>
+                    <input class="addSub" type="button" value="-" onclick="mtgCounter.alterHP(event, -1)" />
+                </div>
+                <div id="oppBox" class="box">
+                    <input class="addSub" type="button" value="+" onclick="mtgCounter.alterHP(event, 1)" />
+                    <h1>Opponent</h1>
+                    <div class="hp" id="oppHP">Opponent HP</div>
+                    <input class="addSub" type="button" value="-" onclick="mtgCounter.alterHP(event, -1)" />
+                </div>
+                <input id="reset" type="button" value="Reset" onclick="mtgCounter.resetHealth()" />
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+div[data-role="page"] {
+    background: #99CCFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+#myBox > *,
+#oppBox > * {
+    display: inline-block;
+}
+
+input[value="Reset"] {
+}
