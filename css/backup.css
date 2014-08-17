@@ -1,2 +1,117 @@
-﻿body {
+﻿* {
+    overflow: hidden;
+}
+
+body {
+    background: #99CCFF !important;
+}
+
+div[data-role="page"] {
+    background: #99CCFF !important;
+}
+
+.ui-content {
+    display: flex !important;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#wrapper {
+    max-width: 80vw;
+    max-height: 80vh;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    flex: 1;
+    min-width: 150px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.hp {
+    font-size: 64px;
+    padding: 10px;
+}
+
+
+* {
+    text-align: center;
+}
+
+.addSub {
+    font-size: 48px;
+    width: 100%;
+    padding: 15px;
+}
+
+#reset {
+    padding: 15px;
+}
+
+#myBox > *,
+#oppBox > * {
+}
+
+.ui-content > .ui-btn {
+    flex: none;
+}
+
+.ui-btn {
+    /*margin: 15px;*/
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .addSub {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .hp {
+        font-size: 64px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .addSub {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .hp {
+        font-size: 128px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .addSub {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .hp {
+        font-size: 128px;
+    }
 }
