@@ -29,7 +29,9 @@
 
 $(function () {
     if (!localStorage.myHP) {
-        $("#myHP, #oppHP").text("20");
+        mtgCounter.resetHealth();
+    } else {
+        mtgCounter.updateHP();
     }
-    mtgCounter.updateHP();
+    
 });
